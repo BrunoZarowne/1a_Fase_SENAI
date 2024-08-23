@@ -1,0 +1,51 @@
+<!-- Página de Formulário de Pesquisa: Crie uma página web com um formulário de
+pesquisa. O tema da pesquisa pode ser qualquer coisa, desde uma pesquisa
+padrão do IBGE até uma pesquisa sobre o filme favorito dos usuários. Garanta que
+seu formulário seja claro e fácil de entender. Novamente, utilize apenas HTML para
+construir essa página. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de pesquisa</title>
+</head>
+<body>
+    <br>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Dados base do usuário</legend>
+            <label for="Pnome">Seu primeiro nome:</label>
+            <input type="text" name="Pnome" id="Pnome"><br>
+            <label for="Snome">Seu segundo nome:</label>
+            <input type="text" name="Snome" id="Snome"><br>
+            <label for="NumeroTelefon">Seu numero de telefone</label>
+            <input type="text" name="NumeroTelefon" id="NumeroTelefon">
+            <br>
+            <form action="/action_page">
+            <label for="EndUsuario">Endereço de sua residencia</label>
+            <select name="CasaOuApto" id="CasaOuApto">
+                <option value="Casa">Casa</option>
+                <option value="Apto">Apartamento</option>
+            </select>
+            </form>
+            <br><br>
+            <legend>Dados profissionais</legend>
+            <br>
+            <label for="emailUsu">Email:</label>
+            <input type="text" name="emailUsu" id="emailUsu">
+            <br>
+        <form action="/action_page">
+        <label for="NivelEscolaridade">Qual seu nivel escolar?</label>
+        <select name="NivelEscolaridade" id="NivelEscolaridade">
+            <option value="Ensino Fundamental">Ensino fundamental</option>
+            <option value="EnsinoMedio1">1° ensino medio</option>
+            <option value="EnsinoMedio2">2° ensino medio</option>
+            <option value="EnsinoMedio3">3° ensino medio</option>
+        </select>
+        </form>
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background-color: antiquewhite;
+}
+.parteDeBaixoDoSite{
+    display: flex;
+    justify-content:space-around ;
+    border: 1px solid black;
+    margin: auto;
+}
+.p1{
+    font-size: 30px;
+}
+.p2{
+    font-size: 20px;
+}
+.parteDeBaixoDoSite{
+    position: relative;
+    top: 715px;
+}

@@ -1,0 +1,22 @@
+body{
+    background-color: antiquewhite;
+}
+.div1{
+    display: inline-flex;
+    flex-direction: column;
+    width: 310px;
+}
+div img{
+    width: 300px;
+    height: 400px;
+}
+.div2{
+    display: inline-flex;
+    flex-direction: column;
+    width: 310px;
+}
+.div3{
+    display: inline-flex;
+    flex-direction: column;
+    width: 310px;
+}

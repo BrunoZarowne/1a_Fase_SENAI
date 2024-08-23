@@ -1,0 +1,37 @@
+body {
+    background-color: lightyellow;
+    border: 3px solid blueviolet;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.kirby{
+    position: absolute;
+    left: 1360px;
+    top: 15px;
+    width: 150%;
+    height: auto;
+}
+li,
+p,
+h1,
+h4,
+title {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+    text-align:center;
+    border: 2px black;
+    width: fit-content;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.mousse{
+    border-radius: 10px;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: fit-content;
+}

@@ -1,0 +1,32 @@
+<!--Criar uma mini-calculadora SIMPLES, com HTML e JS.
+A calculadora deve ter:
+
+-> Título, duas labels, dois inputs e quatro botões.
+-> Utilizar os 2 valores dos inputs para realizar a operação do botão clicado.
+-> Mostra o resultado em um alert.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+
+    <h1>Calculadora</h1><br><br>
+
+    <label>Primeiro numero</label><br><input type="number" id="valorUm" placeholder="N°1"><br><br>
+    <label>Segundo numero</label><br><input type="number" id="valorDois" placeholder="N°2"><br><br>
+
+    <button onclick="somarValores()">Adição</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onclick="subtrairValores()">Subtração</button><br><br>
+    <button onclick="multiplicarValores()">Multiplicação</button>&nbsp;
+    <button onclick="dividirValores()">Divisão</button>
+
+    <script src="Atv-02-Calculadora.js"></script>
+ 
+</body>
+</html>
