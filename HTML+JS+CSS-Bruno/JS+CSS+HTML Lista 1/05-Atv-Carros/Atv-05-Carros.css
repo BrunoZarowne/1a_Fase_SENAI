@@ -1,0 +1,11 @@
+div{
+    width: 150px;
+    display: inline-block;
+}
+input{
+    width: 70px;
+    height: 25px;
+}
+body{
+    background-color: antiquewhite;
+}

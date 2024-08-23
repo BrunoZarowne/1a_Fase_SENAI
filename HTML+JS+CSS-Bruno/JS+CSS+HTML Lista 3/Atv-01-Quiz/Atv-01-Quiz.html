@@ -1,0 +1,64 @@
+<!--Criar um Quiz (print anexo) com 3 perguntas, cada qual contendo uma resposta correta e as outras incorretas (select).
+A resposta correta soma 1 ponto, incorreta não. Selecionar a forma na qual será mostrada ALERT, INPUT ou DIV a pontuação
+(configurar os radios para que o usuário consiga selecionar somente um). Ao clicar no botão de resultado, o resultado
+(total de pontos) deve ser mostrado da forma escolhida somente se o checkbox estiver marcado, caso contrário,
+mostrar mensagem para o usuário avisando que deve marcar o checkbox.-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Atv-01-Quiz.css">
+    <title>Quiz</title>
+</head>
+<body>
+    <center>
+        <div class="divGeral">
+            <h1>Bem vindo ao quiz sobre jogos</h1><br>
+            <div class="div1">
+                <label for="Pergunta1">Pergunta 1, Qual foi o primeiro pokemon do Ash?</label>
+                    <select class="select1" name="Pergunta1" id="Pergunta1">
+                        <option value="0"></option>
+                        <option value="1">1-Pikachu</option>
+                        <option value="0">2-Squirtle</option>
+                        <option value="0">3-Bulbassauro</option>
+                        <option value="0">4-Charmander</option>
+                    </select>
+            </div><br>
+            <div class="div2">
+                <label for="Pergunta2">Pergunta 2, Qual desses jogos pode ser considerado o mais dificil?</label>
+                    <select name="Pergunta2" id="Pergunta2">
+                        <option value="0"></option>
+                        <option value="0">1-Super Mario World</option>
+                        <option value="0">2-Minecraft</option>
+                        <option value="1">3-Dark Souls</option>
+                        <option value="0">4-Pokemon</option>
+                    </select>
+            </div><br>
+            <div class="div3">
+                <label for="Pergunta3">Pergunta 3, Qual jogo é a cara da empresa da Nintendo?</label>
+                    <select name="Pergunta3" id="Pergunta3">
+                        <option value="0"></option>
+                        <option value="0">1-The Legend Of Zelda</option>
+                        <option value="0">2-Pokemon</option>
+                        <option value="0">3-Kirby</option>
+                        <option value="1">4-Super Mario</option>
+                    </select>
+            </div>
+            <div class="div4">
+                <input name="rad1" type="radio" id="rad1"><label>Alert</label>
+                <input name="rad1" type="radio" id="rad2"><label>Imput</label>
+                <input name="rad1" type="radio" id="rad3"><label>DIV</label><br>
+                <input type="checkbox" id="check1">&nbsp;Quero ver meu resultado
+            </div>
+            <div class="div5">
+                <button onclick="resultado()">Resultado</button>
+                <input class="input" readonly type="text" id="resultado">
+                <label id="respostaLabel"></label>
+            </div>
+        </div>
+    </center>
+    <script src="Atv-01-Quiz.js"></script>
+</body>
+</html>

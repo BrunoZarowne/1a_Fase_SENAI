@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topoCadastro">
+            <h1  class="labTexto">Cadastro</h1>
+            <button onclick="logar()">Logar</button>
+        </div>
+            <label for="">Nome Completo</label><br>
+            <input class="inputTexto" type="text">
+            <br>
+            <label for="">E-mail</label><br>
+            <input class="inputTexto" type="email">
+            <br>
+            <label for="">Senha</label><br>
+            <input class="inputTexto" type="password">
+            <br>
+            <label for="">Confirmar Senha</label><br>
+            <input class="inputTexto" type="password">
+            <br>
+            <label for="">Data de Nascimento</label><br>
+            <input class="inputData" type="date">
+            <br>
+            <label for="">Qual dessas funcionalidades voce irá usar?</label><br>
+            <input class="rad1" type="radio" name="rad" id="rad1"><label class="lab1">Apenas olhar</label><br>
+            <input class="rad2" type="radio" name="rad" id="rad2"><label class="lab1">Postar e possivelmente vender obras</label>
+            <li><a href="">&nbsp;&nbsp;Politica de termos de uso</a></li>
+            <input type="checkbox" id="check1">Li e aceito os termos de uso<br>
+            <button class="buttonAvancar" onclick="avançarPagina()">Finalizar cadastro</button>
+        </div>
+    <script src="cadastro.js"></script>
+</body>
+</html>

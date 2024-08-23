@@ -1,0 +1,14 @@
+
+input{
+    width: 70px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+    width: 450px;
+    height: fit-content;
+    border-radius: 20px;
+    margin-top: 150px;
+}

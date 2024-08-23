@@ -1,0 +1,62 @@
+<!-- Criar um sistema para gerenciar projetos e valores de projetos, com HTML e JS. O sistema deve deve seguir o
+layout anexo (imagem). O usuário deverá informar dados de 5 projeto
+(nome do projeto, valor cobrado por hora e quantidade de horas previstas para concluir).
+
+Ao final devem ser mostrados:
+a) O valor individual de cada projeto 
+b) O valor total dos projetos. -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Atv-07-Projetos.css">
+    <title>Projetos</title>
+</head>
+<body>
+    <center>
+    <div class="div1">
+        <label>Projeto 1&nbsp;&nbsp;</label><input class="input1" type="text"><br><br> 
+        <label>Projeto 2&nbsp;&nbsp;</label><input class="input1" type="text"><br><br>
+        <label>Projeto 3&nbsp;&nbsp;</label><input class="input1" type="text"><br><br>
+        <label>Projeto 4&nbsp;&nbsp;</label><input class="input1" type="text"><br><br>
+        <label>Projeto 5&nbsp;&nbsp;</label><input class="input1" type="text"><br><br>
+
+    </div>
+
+    <div class="div2">
+        <label>Valor por Hora</label><br>
+            <input class="input2" id="valorHora1" type="number"><br><br>
+            <input class="input2" id="valorHora2" type="number"><br><br>
+            <input class="input2" id="valorHora3" type="number"><br><br>
+            <input class="input2" id="valorHora4" type="number"><br><br>
+            <input class="input2" id="valorHora5" type="number"><br><br>
+
+    </div>
+
+    <div class="div3">
+        <label>Quantidade Horas</label><br>
+            <input class="input3" id="qntdHora1" type="number"><br><br>
+            <input class="input3" id="qntdHora2" type="number"><br><br>
+            <input class="input3" id="qntdHora3" type="number"><br><br>
+            <input class="input3" id="qntdHora4" type="number"><br><br>
+            <input class="input3" id="qntdHora5" type="number"><br><br>
+
+    </div>
+    <p>Projeto 1: <span id="resultadoP1"></span></p>
+    <p>Projeto 2: <span id="resultadoP2"></span></p>
+    <p>Projeto 3: <span id="resultadoP3"></span></p>
+    <p>Projeto 4: <span id="resultadoP4"></span></p>
+    <p>Projeto 5: <span id="resultadoP5"></span></p>
+    <p>Total dos Projetos: <span id="resultadoGeralProjetos"></span></p>
+    <button onclick="calcularValores()">Calcular o valor dos projetos</button>
+
+
+    
+    </center>
+
+    <script src="Atv-07-Projetos.js"></script>
+</body>
+</html>

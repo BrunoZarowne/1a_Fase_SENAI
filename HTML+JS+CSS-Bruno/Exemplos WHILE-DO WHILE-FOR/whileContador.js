@@ -1,0 +1,11 @@
+//estrutura de repetição WHILE com contador
+
+let contador = 5
+
+while( contador > 0){
+
+    alert('Buu!')
+
+    contador--
+}
+

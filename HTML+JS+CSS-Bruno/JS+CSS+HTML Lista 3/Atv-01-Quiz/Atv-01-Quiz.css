@@ -1,0 +1,37 @@
+.divGeral{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 650px;
+    height: 300px;
+    margin: auto;
+    padding: 1%;
+
+    margin-top: 5%;
+}
+.div1{
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+}
+select{
+    width: 165px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+label{
+    font-size: 16px;
+}
+.div2{
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+}
+.div3{
+    width:600px;
+    display: flex;
+    justify-content: space-between;
+}
+.div5 input{
+    width: 60px;
+}

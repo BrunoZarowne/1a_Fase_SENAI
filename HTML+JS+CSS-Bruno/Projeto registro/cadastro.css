@@ -1,0 +1,76 @@
+.container{
+    border: 2px solid black;
+    width: fit-content;
+    margin: auto;
+    height: 30%;
+    padding: 3%;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 10%;
+    background: rgb(233,233,233);
+    background: linear-gradient(0deg, rgba(233,233,233,1) 0%, rgba(233,233,233,1) 100%);
+}
+.inputTexto{
+    width: 200px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+    outline: 0;
+}
+.inputData{
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+input:hover{
+    border: 2px solid darkgray;
+}
+.lab1{
+    font-size: 15px;
+}
+label{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+li{
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+}
+.labTexto{
+    width: fit-content;
+}
+.topoCadastro{
+    display: flex;
+    justify-content: space-between;
+}
+.topoCadastro button:hover{
+    border: 2px solid lightpink;
+}
+.topoCadastro button{
+    width: 80px;
+    height: 30px;
+    position: relative;
+    top: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+.buttonAvancar{
+    width: 150px;
+    height: 25px;
+    position: relative;
+    top: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: white;
+}
+.buttonAvancar:hover{
+    border: 2px solid lightpink;
+}

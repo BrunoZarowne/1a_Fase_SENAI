@@ -1,0 +1,17 @@
+body{
+    background-color: antiquewhite;
+}
+
+div{
+    width: 140px;
+    display: inline-block;
+}
+.input1{
+    width: 60px;
+    border: 2px solid black;
+    text-size-adjust: 20px;
+}
+.input2{
+    width: 72px;
+    border: 2px solid black;
+}

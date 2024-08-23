@@ -1,0 +1,34 @@
+<!--Criar um tradutor de números (De 1 a 5) de inglês para português, utilizando HTML e JS. O sistema deve seguir o modelo (print anexo).
+    Um número um inglês deve ser selecionado no select e quando for clicado no botão "Traduzir" a tradução dele deve ser mostrada no input 
+    "Resultado", com uma mensagem em amarelo "Tradução efetuada. Caso nenhum número esteja selecionado, mostrar "Nenhuma opção escolhida".-->
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Atv-03-TradNum.css">
+        <title>Traduções muito foda slk</title>
+    </head>
+    <body>
+        <div>
+            <center>
+                <h1>English Number Translation</h1>
+                <label>Tradução</label>
+                <input type="text" placeholder="Resultado" id="Resultado" readonly>
+                <button onclick="traduzir()">Traduzir</button><br><br>
+                <label id="opSelecionada">Nenhuma Opção Selecionada!</label><br><br>
+                <label for="NumIngles">Numeros</label>
+                <select name="NumIngles" id="NumIngles">
+                    <option value="0"></option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                    <option value="4">Four</option>
+                    <option value="5">Five</option>
+                </select>
+            </center>
+        </div>
+        <script src="Atv-03-TradNum.js"></script>
+    </body>
+    </html>

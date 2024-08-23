@@ -1,0 +1,29 @@
+<!-- Criar um sistema clássico de jogos Tower Defense (Defesa de Torre) de acordo com a imagem disponibilizada. A Torre começa com estrutura em 100
+    e o usuário pode destruir ou construir, digitando valores nos campos e clicando nos botões de menos e mais. O valor de estrutura deve ser
+    atualizado após destruir ou construir.
+
+A situação da Torre começa como Ativa, mas caso sua estrutura chegue em zero ou abaixo, atualizar a situação para "Destruída".
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tower Defense</title>
+</head>
+<body>
+    <center>
+    <h1>Defenda ou destrua o castelo!!!</h1>
+
+    <p>Estrutura da Torre: <span id="vidaTorre">100</span></p>
+    <input type="number" id="valor" value="10" min="1">
+    <button onclick="destruir()">Destruir</button>
+    <button onclick="construir()">Construir</button>
+    <p class="status">Situação da Torre: <span id="situaçãoTorre"></span></p>
+
+    </center>
+    <script src="Atv-03-ToweDefense.js"></script>
+</body>
+</html>

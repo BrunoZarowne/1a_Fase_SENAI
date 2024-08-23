@@ -1,0 +1,20 @@
+div{
+    width: 180px;
+    display: inline-block;
+}
+.input1{
+    width: 100px;
+    height: 15px;
+}
+body{
+    background-color: antiquewhite;
+}
+.input2{
+    width: 50px;
+}
+.input3{
+    width: 50px;
+}
+p{
+    text-align: unset;
+}

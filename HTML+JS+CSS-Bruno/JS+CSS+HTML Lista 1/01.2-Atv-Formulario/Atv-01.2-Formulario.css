@@ -1,0 +1,40 @@
+img{
+    border-radius: 20px;
+    border: 3.5px solid black;
+    width: 350px;
+    height: 250px;
+    
+}
+body{
+    background-color: aliceblue;
+}
+input{
+    width: 150px;
+    height: 15px;
+    border-radius: 5px;
+    border: 1.5px solid black;
+    justify-content: auto;
+    align-items: center;
+}
+label{
+    font-size: 25px;
+}
+.rad1{
+    width: 15px;
+}.rad2{
+    width: 15px;
+}.rad3{
+    width: 15px;
+}
+.div2{
+    width: 25%;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+ 
+}
+.div3{
+    width: 152px;
+    height: 15px;
+}

@@ -1,0 +1,58 @@
+div{
+    border: 1px solid black;
+    width: fit-content;
+    height: 100%;
+    padding: 2%;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(238,216,255,1) 100%);
+
+    margin-top: 12%;
+    background-color: aliceblue;
+}
+div button{
+    width: 68px;
+    height: 20px;
+    display: flex;
+    border: 1px solid rgb(78, 78, 78);
+    border-radius: 20px;
+    background: white;
+}
+body{
+    background-color: white;
+}
+li{
+    list-style-type: none;
+}
+.divButton{
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 0px;
+}
+.logar{
+    width: 50px;
+}
+.topoPagina{
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    width: 160px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 0%;
+}
+.buttonVoltar{
+    width: 50px;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    background: white;
+}

@@ -1,0 +1,80 @@
+
+>>>>>>>>>>>>>>>>>>> Atividade 1 (3,0) <<<<<<<<<<<<<<<<<<<
+
+O CETAS (Centro de Triagem de Animais Silvestres) está com processo seletivo de integrantes para as suas equipes. Criar um sistema utilizando estrutura condicional IF/ELSE IF/ELSE, que receba os dados do candidato (nome, idade, formação e cidade) para sinalizar se ele pode concorrer às vagas. Após receber os dados, mostrar o nome do candidato e mensagem para qual tipo de vaga o candidato está apto a concorrer. Caso não esteja apto a concorrer a nenhuma das duas categorias de vagas, mostrar mensagem de "Não apto a concorrer".
+
+Vaga para Equipe de Resgate -> O candidato deve ter de 18 a 60 anos, possuir formação em "Biologia" ou "Ecologia" e residir em Florianópolis.
+Vaga para Equipe de Tratamento -> O candidato deve ter de 23 a 65 anos, possuir formação em "Veterinária" e residir em Florianópolis.
+
+
+Critérios de avaliação:
+
+(1,0) Receber e armazenar os dados do candidato.
+(1,5) Validar os dados e critérios para cada tipo de vaga, ou caso não possa concorrer.
+(0,5) Mostrar mensagem com o nome do candidato e o tipo de vaga que pode concorrer, ou mensagem de "Não apto a concorrer".
+
+
+>>>>>>>>>>>>>>>>>> Atividade 2 (3,0) <<<<<<<<<<<<<<<<<<<<
+
+No site Amazon, os produtos a venda podem ser avaliados pelos compradores, o que gera um índice (média aritmética) utilizado pelo algoritmo para definir se o produto deve ou não ganhar destaque: destaque na página principal, destaque na página da categoria daquele produto, destaque na página de promoções ou não deve ganhar destaque. O índice é calculado através da avaliação de 3 quesitos pelo comprador: qualidade do produto, custo benefício, durabilidade. Criar um sistema utilizando a estrutura condicional SWITCH / CASE, que receba avaliações do comprador nesses três quesitos (notas de 0 a 10) sobre um determinado produto e gere o índice dele. Após receber as avaliações, mostrar o índice do produto e indicar se conseguiu destaque para: índice abaixo de 5 (não ganha destaque), índice de 5 a menor que 7 (destaque na página da categoria), índice de 7 a menor que 9 (destaque em promoções), índice igual ou maior a 9 (destaque na página principal).
+
+
+Critérios de avaliação:
+
+(1,0) Receber e armazenar as notas dos três quesitos (avaliação).
+(1,0) Calcular o índice do produto (média aritmética) com três casas após a vírgula e mostrar na tela.
+(1,0) Criar o sistema de destaques com as quatro possibilidades e mostrar mensagem referente na tela.
+
+
+>>>>>>>>>>>>>>>>>> Atividade 3 (4,0) <<<<<<<<<<<<<<<<<<<<
+
+Desenvolver a lógica de perguntas / respostas / pontuação para um mini-quiz utilizando a estrutura condicional SWITCH / CASE. O quiz contém 4 perguntas com 4 respostas cada (conforme abaixo). Todas as respostas possuem uma pontuação específica. Realizar o cálculo da pontuação e mostrar ao final.
+
+1) Quais séries a seguir englobam melhor a temática de vampiros e assombração?
+
+A) Van Helsing (2 pontos)
+B) Castlevania (3 pontos)
+C) The Vampire Diaries (2 pontos)
+D) Blade: The Series (1 ponto)
+
+
+2) Dentre os livros abaixo, quais incluem melhor a temática de fantasia?
+
+A) Alice no País das Maravilhas (1 ponto)
+B) O Hobbit (1 ponto)
+C) A Fantástica Fábrica de Chocolates (1 ponto)
+D) Coraline (2 pontos)
+
+
+3) Quais das franquias listadas, representam melhor a empresa de jogos Nintendo?
+
+A) The Legend of Zelda (3 pontos)
+B) Kirby (2 pontos)
+C) Metroid (3 pontos)
+D) Super Mario Bros (2 pontos)
+
+
+4) Quais dos autores citados, representam melhor o gênero de livros de terror?
+
+A) Stephen King (2 pontos)
+B) Edgar Allan Poe (2 pontos)
+C) H.P. Lovecraft (2 pontos)
+D) Mary Shelley (1 ponto)
+
+
+Critérios de avaliação:
+
+(0,5) Criar uma tela (janela) inicial de boas vindas, explicando o quiz.
+(1,0) Validar para que respostas digitadas com letra minúscula (a, b, c, d) também somem os pontos.
+(1,0) Incluir uma validação para opções diferentes das alternativas, avisando a soma de 0 pontos.
+(0,5) Mostrar na tela ao final, quais foram as opções / respostas escolhidas em cada pergunta.
+(1,0) Mostrar os pontos ao final. Se conseguir pontuação máxima (10 pontos), incluir além da pontuação, uma mensagem "Parabéns!"
+
+
+
+
+
+
+
+
+

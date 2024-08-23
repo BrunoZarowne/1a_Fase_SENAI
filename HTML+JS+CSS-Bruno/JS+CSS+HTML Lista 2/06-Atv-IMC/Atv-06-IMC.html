@@ -1,0 +1,35 @@
+<!-- Criar um sistema (de acordo com a imagem) onde o usuário digite seu peso e altura, seja calculado o IMC (peso / altura * altura).
+Mostrar no campo de IMC o valor do IMC com duas casas após a vírgula, e no campo resultado o resultado de acordo com a tabela abaixo.
+
+IMC menor que 15 -> "Muito abaixo do Peso"
+IMC igual ou maior que 15 e menor que 18 -> "Abaixo do Peso"
+IMC igual ou maior que 18 e menor que 25 -> "Peso Adequado"
+IMC igual ou maior que 25 e menor que 28 -> "Acima do Peso"
+IMC igual ou maior que 28 -> "Muito acima do Peso"-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Atv-06-IMC.css">
+    <title>Calculo IMC</title>
+</head>
+<body>
+    <center>
+    <h1>Bem-Vindo ao seu calculo de IMC</h1>
+        <label for="inputPeso">Seu peso:&nbsp;&nbsp;&nbsp;</label>
+            <input name="input1" type="number" id="inputPeso"><br><br>
+        <label for="inputAltura">Sau altura:&nbsp;</label>
+            <input name="input2" type="number" id="inputAltura"><br><br>
+        <button onclick="calculoIMC()">Calcular seu IMC</button><br><br>
+        <label for="inputResultadoIMC">Resultado:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input name="resultado" type="number" id="inputResultadoIMC"><br><br>
+        <label for="inputSituacaoPessoa">Sua situação:</label>
+            <input name="situacao" type="text" id="inputSituacaoPessoa">
+    </center>
+
+
+    <script src="Atv-06-IMC.js"></script>
+</body>
+</html>
