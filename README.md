@@ -1,2 +1,2 @@
 # 1a_fase_SENAI
-Todas as atividades realizadas durante a primeirafase do curso SENAI
+Repositório de arquivos no primeiro semestre do CT Desenvolvimento de Sistema no SENAI florianópolis
